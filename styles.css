@@ -1,0 +1,131 @@
+.dosColumnas{
+    width: 100vw;
+    display: flex;
+    border: 2pt;
+    border-color: white;
+   
+}
+.honolulu{
+    width: 50%;
+    background-color: blue;
+    border: 2pt;
+    border-color: white;
+}
+
+.texto{
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(63, 58, 58);
+}
+
+.tamañoImagen2{
+    width: 50vw;
+    height: 50vh;
+    border: 1px;
+}
+
+.texto-encima{
+    position: absolute;
+    bottom: 45vh;
+    right: 10vw;
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+
+.nav{
+    background-color: rgb(49, 49, 49);
+    height: 60px;
+}
+
+.conf{
+    text-decoration-color: rgb(49, 49, 49);
+    /* text-align: left; */
+    float:left
+}
+
+.brillo{
+    filter: brightness(0.5);
+}
+
+.boton{
+    position: absolute;
+    right: 0vh;
+}
+
+header {
+    background: rgba(61, 61, 61, 0.7);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+  }
+  
+  nav {
+    float: right;
+    margin-right: 10%;
+  }
+  
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  nav ul li {
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #888787;
+    text-decoration: none;
+  }
+  nav ul li:hover {
+    color: white;
+  }
+
+footer {
+  display: inline-block;
+  width: 100%;
+  float: left;
+}
+
+footer {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background: rgba(61, 61, 61, 0.7);
+    width: 100%;
+    z-index: 100;
+  }
+  
+  foot {
+    float: left;
+}
+  
+  foot ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  
+  foot ul li {
+    display: inline-block;
+    float: left;
+    width: 13%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+
+
+  foot ul li a {
+    display: inline-block;
+    float: center;
+    width: 13%;
+    padding: 10px;
+    color: #242323;
+    text-decoration: none;
+  }
+  foot ul li:hover {
+    color: white;
+  } 
