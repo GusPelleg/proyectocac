@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Compra de tickets</title>
+</head>
+
+<body class="container-fluid">
+    <div class="row" style="height: 4rem; background-color: rgb(71, 70, 70);">
+        <div class="col-4" style="text-align: left;">
+            <p>Conf Bs As</p>
+        </div>
+        <div class="col-8">
+            <p>La conferencia</p>
+            <p>Los oradores</p>
+            <p>El lugar y la fecha</p>
+            <p>Conviértete en orador</p>
+            <p>Comprar tickets</p>
+        </div>
+    </div>
+    <!-- las tres cards -->
+    <main class="container">
+        <div class="row justify-content-center" style="height: 13rem;">
+            <div class="col-3 g-4" style="text-align: center;">
+                <div class="card border border-primary p-1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Estudiante</h5>
+                        <p class="card-text">Tienen un descuento</p>
+                        <p class="card-text fw-bold">80%</p>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">* presentar documentación
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 g-4" style="text-align: center;">
+                <div class="card border border-success p-1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Trainee</h5>
+                        <p class="card-text">Tienen un descuento</p>
+                        <p class="card-text fw-bold">50%</p>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">* presentar documentación
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 g-4" style="text-align: center;">
+                <div class="card border border-warning p-1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Junior</h5>
+                        <p class="card-text">Tienen un descuento</p>
+                        <p class="card-text fw-bold">15%</p>
+                        <h6 class="card-subtitle mb-2 text-muted" style="font-size: 0.8rem;">* presentar documentación
+                        </h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- el texto sobre el formulario -->
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-12" style="text-align: center; height: 6rem;">
+                <h6 style="font-weight: 400;">VENTA</h6>
+                <h1 style="font-weight: 500;">VALOR DE TICKET $200</h1>
+            </div>
+        </div>
+    </div>
+    <!-- el formulario -->
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-9">
+                <div class="container">
+                    <form id="miForm" action="">
+                    <div class="row formulario">
+                        <div class="col-6" style="height: 3rem;">
+                            <input type="text" class="form-control" id="nombre" placeholder="Nombre">
+                        </div>
+                        <div class="col-6" style="height: 3rem;">
+                            <input type="text" class="form-control" id="apellido" placeholder="Apellido">
+                        </div>
+                        <div class="col-12" style="height: 3rem;">
+                            <input type="email" class="form-control" id="mail" placeholder="Correo">
+                        </div>
+                        <div class="col-6" style="height: 5rem;">
+                            <label for="cantidad" class="form-label">Cantidad</label>
+                            <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
+                        </div>
+                        <div class="col-6" style="height: 5rem;">
+                            <label for="categoria" class="form-label">Categoría</label>
+                            <select id="categoria" class="form-select">
+                                <option value="">--seleccione--</option>
+                                <option value="0">Sin categoria</option>
+                                <option value="1">Estudiante</option>
+                                <option value="2">Trainee</option>
+                                <option value="3">Junior</option>
+                            </select>
+                        </div>
+                        <div class="col-12" style="height: 5rem;">
+                            <p class="alert alert-primary" id="parrafo">Total a Pagar: $</p>
+                        </div>
+                        <div class="col-6" style="height: 3rem;">
+                            <button class="btn text-white fs-6 btnBorrar" id="btnBorrar" style="background-color: #96c93e;"
+                                type="reset">Borrar</button>
+                        </div>
+                        <div class="col-6" style="height: 3rem;">
+                            <button class="btn text-white fs-6 btnResumen" id="btnResumen" style="background-color: #96c93e;"
+                                type="button">Resumen</button>
+                        </div>                        
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- el footer -->
+    <footer>
+        <div class="row justify-content-center" style="height: 8rem; background-color: rgb(11, 11, 77);">
+
+        </div>
+    </footer>
+
+    <script src="tickets.js"></script>
+</body>
+
+</html>

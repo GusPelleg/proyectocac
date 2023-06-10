@@ -88,12 +88,10 @@ header {
 footer {
   display: inline-block;
   width: 100%;
-  float: left;
 }
 
 footer {
     display: inline-block;
-    float: left;
     width: 100%;
     background: rgba(61, 61, 61, 0.7);
     width: 100%;
@@ -111,7 +109,6 @@ footer {
   
   foot ul li {
     display: inline-block;
-    float: left;
     width: 13%;
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -120,7 +117,6 @@ footer {
 
   foot ul li a {
     display: inline-block;
-    float: center;
     width: 13%;
     padding: 10px;
     color: #242323;
@@ -129,3 +125,32 @@ footer {
   foot ul li:hover {
     color: white;
   } 
+
+  .valor{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .tamañoValor{
+    font-size: 30pt;
+  }
+
+  .margen{
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  .cajas{
+    display: inline-flex;
+    margin-top: 5%;
+    margin-bottom: 5%;    
+  }
+
+  .caja{
+    display: inline;
+    width: 20%;
+    height: 20%;
+    border: 1pt;
+  }
+
